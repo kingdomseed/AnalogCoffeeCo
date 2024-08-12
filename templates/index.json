@@ -1,0 +1,249 @@
+{
+  "sections": {
+    "promotion_FwVFBq": {
+      "type": "promotion",
+      "settings": {
+        "header": "Get 20% off all sale items",
+        "promo": "Use code EXTRA at checkout",
+        "button_text": "Shop Now",
+        "product_list": "",
+        "button_color": "#0B5B4B",
+        "button_text_color": "#FFFFFF",
+        "text_color": "#0B5B4B"
+      }
+    },
+    "slideshow_m3UBkp": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Y9ByAX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/freshly-picked-coffee-beans.jpg",
+            "heading": "Farm-to-cup",
+            "heading_size": "h1",
+            "subheading": "Small-batch roasting from hand-picked farms",
+            "button_label": "Learn more",
+            "link": "shopify:\/\/blogs\/news",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_yfdUBy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-6600644_1920.jpg",
+            "heading": "Speciality Coffee",
+            "heading_size": "h1",
+            "subheading": "Explore our menu",
+            "button_label": "Take me there",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Thqhpg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-4388065_1920.jpg",
+            "heading": "Find Your Next Bean",
+            "heading_size": "h1",
+            "subheading": "A flavor profile for any occasion and brew style!",
+            "button_label": "Explore Offerings",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "box_align": "bottom-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "right"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Y9ByAX",
+        "slide_yfdUBy",
+        "slide_Thqhpg"
+      ],
+      "custom_css": [
+        ".banner__box {opacity: 90%; border-radius: 5px;}",
+        ".button {background-color: #084838; --border-offset: 0;}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our Favorites ❤️",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_inYiP3": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Learn more about coffee",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_UQACrV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_njrmMF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coffee Club",
+            "heading_size": "h1"
+          }
+        },
+        "text_TfFQ6J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join our Coffee Club, the ultimate subscription service for coffee lovers! Explore exceptional flavors delivered to your doorstep. With our curated selection of premium coffees, experience unmatched quality and freshness in every cup. Elevate your coffee-drinking with Coffee Club today!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_4Y8eEY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "heading_njrmMF",
+        "text_TfFQ6J",
+        "button_4Y8eEY"
+      ],
+      "custom_css": [
+        "a,.button,.button--primary {background-color: #0b5b4b; --border-offset: 0;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Product_pack.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_yWtPin": {
+      "type": "video",
+      "settings": {
+        "heading": "Our process",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/vimeo.com\/582023095",
+        "cover_image": "shopify:\/\/shop_images\/Roasting-video-thumbnail.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_nMaUxz": {
+      "type": "collage",
+      "blocks": {
+        "product_9LBKgK": {
+          "type": "product",
+          "settings": {
+            "product": "coffee-ethiopia",
+            "second_image": false
+          }
+        },
+        "image_cW87HL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Collage-section1.png"
+          }
+        },
+        "image_qMgjTF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Collage-section.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "product_9LBKgK",
+        "image_cW87HL",
+        "image_qMgjTF"
+      ],
+      "settings": {
+        "heading": "Coffee of the Month🌟",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "promotion_FwVFBq",
+    "slideshow_m3UBkp",
+    "featured_collection",
+    "featured_blog_inYiP3",
+    "image_with_text_UQACrV",
+    "video_yWtPin",
+    "collage_nMaUxz"
+  ]
+}
