@@ -1,6 +1,25 @@
 .component {
+    margin: 3rem auto;;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 2rem;
+}
+
+.component h2 {
+   margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+    .component {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        padding: 5rem;
+    }
+    
 }
