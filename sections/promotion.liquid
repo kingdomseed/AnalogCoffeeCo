@@ -1,9 +1,25 @@
 {{ 'component-promotion.css' | asset_url | stylesheet_tag }}
 
-<div class="component page-width-desktop shopify-section section isolate promotion-section style="color: {{ section.settings.background_color }}">
-  <h2 class="h1" style="color: {{ section.settings.text_color }}">{{ section.settings.header }}</h2>
-  <h5 style="color: {{ section.settings.text_color }}">{{ section.settings.promo }}</h5>
-  <a href="{{ section.settings.product_list }}" class="button button--primary" style="background-color: {{ section.settings.button_color }}; color: {{ section.settings.button_text_color }};">
+<style>
+  .component-{{section.id}} {
+    background-color: {{ section.settings.background_color }};
+  }
+
+  .component-{{section.id}} h2, .component-{{section.id}} h5 {
+    background-color: {{ section.settings.background_color }};
+    color: {{ section.settings.text_color }};
+}
+
+.component-{{section.id}} a {
+    background-color: {{ section.settings.button_color }};
+    color: {{ section.settings.button_text_color }};
+}
+</style>
+
+<div class="component component-{{section.id}} page-width promotion-section">
+  <h2 class="h1">{{ section.settings.header }}</h2>
+  <h5>{{ section.settings.promo }}</h5>
+  <a class="button" href="{{ section.settings.btn_link }}">
     {{ section.settings.button_text }}
   </a>
 </div>
@@ -33,8 +49,8 @@
       "default": "Shop Now"
     },
     {
-      "type": "collection",
-      "id": "product_list",
+      "type": "url",
+      "id": "btn_link",
       "label": "Link"
     },
     {

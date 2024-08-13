@@ -1,17 +1,5 @@
 {
   "sections": {
-    "promotion_FwVFBq": {
-      "type": "promotion",
-      "settings": {
-        "header": "Get 20% off all sale items",
-        "promo": "Use code EXTRA at checkout",
-        "button_text": "Shop Now",
-        "product_list": "",
-        "button_color": "#0B5B4B",
-        "button_text_color": "#FFFFFF",
-        "text_color": "#0B5B4B"
-      }
-    },
     "slideshow_m3UBkp": {
       "type": "slideshow",
       "blocks": {
@@ -115,6 +103,19 @@
         "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "promotion_W4JtUp": {
+      "type": "promotion",
+      "settings": {
+        "header": "Get 20% off all sale items",
+        "promo": "Use code EXTRA at checkout",
+        "button_text": "Shop Now",
+        "btn_link": "",
+        "button_color": "#0b5b4b",
+        "button_text_color": "#ffffff",
+        "text_color": "#0b5b4b",
+        "background_color": "#ffd28f"
       }
     },
     "featured_blog_inYiP3": {
@@ -238,9 +239,9 @@
     }
   },
   "order": [
-    "promotion_FwVFBq",
     "slideshow_m3UBkp",
     "featured_collection",
+    "promotion_W4JtUp",
     "featured_blog_inYiP3",
     "image_with_text_UQACrV",
     "video_yWtPin",
