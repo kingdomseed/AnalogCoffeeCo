@@ -91,8 +91,6 @@
           {%- endif -%}
         </div>
       </div>
-      {%- if section.settings.show_phone_number_field -%}
-
       <div class="field">
         <input
           type="tel"
@@ -106,23 +104,6 @@
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
-      {%- endif -%}
-      {%- if section.settings.show_order_number_field -%}
-
-        <div class="field">
-          <input
-            type="text"
-            id="ContactForm-order_number"
-            class="field__input"
-            autocomplete="off"
-            name="contact[order_number]"
-            pattern="[0-9\-]*"
-            value="{% if form.order_number %}{{ form.order_number }}{% elsif customer %}{{ customer.order_number }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.order_number' | t }}"
-          >
-          <label class="field__label" for="ContactForm-order_number">{{ 'templates.contact.form.order_number' | t }}</label>
-        </div>
-      {%- endif -%}
       <div class="field">
         <textarea
           rows="10"
@@ -232,18 +213,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    },
-    {
-      "type": "checkbox",
-      "id": "show_phone_number_field",
-      "label": "Show Phone Number",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "show_order_number_field",
-      "label": "Show Order Number",
-      "default": true
     }
   ],
   "presets": [

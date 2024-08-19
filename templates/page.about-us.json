@@ -1,10 +1,51 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "image_banner_GCAx9b": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_D4ikqj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_6k8Mr7": {
+          "type": "text",
+          "settings": {
+            "text": "Indulge in our handcrafted coffee blends and experience the art of roasting. Our story is brewed with passion.",
+            "text_style": "body"
+          }
+        },
+        "buttons_adG6ih": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_D4ikqj",
+        "text_6k8Mr7",
+        "buttons_adG6ih"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "image": "shopify:\/\/shop_images\/a-barista-smiles-proudly-stood-in-her-cafe_1103ae5a-70cb-4e92-aef8-60e58ce9d955.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "multirow_YtFan7": {
@@ -35,6 +76,7 @@
         "row_dt9kEF": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-2344797_1280.jpg",
             "caption": "Perfecting the Final Pour",
             "heading": "Brewing Excellence",
             "text": "<p>The final step in our journey from seed to cup happens in your hands. Whether you're visiting our shop or brewing at home, we're passionate about helping you experience coffee at its best. Our team of skilled baristas is always ready to guide you through our range of brewing methods, each designed to highlight different aspects of our carefully sourced and roasted beans.<\/p>",
@@ -66,7 +108,7 @@
     }
   },
   "order": [
-    "main",
+    "image_banner_GCAx9b",
     "multirow_YtFan7"
   ]
 }

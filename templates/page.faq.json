@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "collapsible_content_R8wyV3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_9BqiLn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where does Analog Coffee Co. source its beans?",
+            "icon": "plant",
+            "row_content": "<p>We source our beans directly from small-batch farmers in premier coffee-growing regions around the world. We prioritize fair trade practices and sustainable farming methods.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TVMwtY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Analog Coffee Co. different from other coffee shops?",
+            "icon": "heart",
+            "row_content": "<p>Our commitment to the entire coffee journey - from cherry to cup. We roast our own beans in small batches, ensuring peak freshness and flavor in every brew.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qFLmaa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer coffee subscriptions?",
+            "icon": "star",
+            "row_content": "<p>Yes! We offer flexible subscription plans for our freshly roasted beans, delivered right to your door. You can choose your preferred roast, grind, and delivery frequency. Checkout the <a href=\"\/pages\/coffee-club\" target=\"_blank\" title=\"Coffee Club\">Coffee Club<\/a> page for more details!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RLL4by": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What brewing methods do you use in your shop?",
+            "icon": "check_mark",
+            "row_content": "<p>We specialize in both traditional and modern brewing methods, including pour-over, French press, espresso, cold brew, and our signature Analog Drip.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zzYE3a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are your coffee beans organic?",
+            "icon": "leaf",
+            "row_content": "<p>Many of our beans are certified organic. All our coffees are sourced from farmers who prioritize sustainable and environmentally friendly practices, whether certified or not.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_y6Ytw7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer non-dairy milk alternatives?",
+            "icon": "dairy",
+            "row_content": "<p>Absolutely! We offer a variety of non-dairy options including oat, almond, soy, and coconut milk at no extra charge.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jXwG9n": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I buy your coffee beans to brew at home?",
+            "icon": "box",
+            "row_content": "<p>Yes! We sell our freshly roasted beans in-store and online. We can grind them to your specifications or provide whole beans for home grinding.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4z6XnN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer coffee education or tasting events?",
+            "icon": "chat_bubble",
+            "row_content": "<p>We regularly host cupping sessions, brewing workshops, and farm-to-cup educational events. Check our events calendar or sign up for our newsletter to stay informed.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_9BqiLn",
+        "collapsible_row_TVMwtY",
+        "collapsible_row_qFLmaa",
+        "collapsible_row_RLL4by",
+        "collapsible_row_zzYE3a",
+        "collapsible_row_y6Ytw7",
+        "collapsible_row_jXwG9n",
+        "collapsible_row_4z6XnN"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "collapsible_content_R8wyV3"
+  ]
+}

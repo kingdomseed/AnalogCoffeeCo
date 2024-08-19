@@ -240,7 +240,6 @@
         "email": "Email",
         "phone": "Phone number",
         "comment": "Comment",
-        "order_number": "Order number",
         "send": "Send",
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
@@ -463,7 +462,6 @@
       "email": "Email",
       "name_label": "Recipient name (optional)",
       "name": "Name",
-      "order_number": "Order number",
       "message_label": "Message (optional)",
       "message": "Message",
       "max_characters": "{{ max_chars }} characters max"

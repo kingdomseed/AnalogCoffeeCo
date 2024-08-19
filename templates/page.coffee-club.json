@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_K7Wbdy": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Coffe Club: Elevate Your Daily Brew",
+            "heading_size": "h1"
+          }
+        },
+        "text_pFbewn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Analog Coffee Co., we believe great coffee should be a daily ritual, not just an occasional treat. Our subscription service brings the richness of our small-batch, artisanal roasts directly to your home. Tailored to your preferences, schedule, and lifestyle, our coffee club ensures you never run out of premium, freshly roasted beans. From choosing your favorite roasts to enjoying exclusive perks, we've crafted a flexible, hassle-free experience that keeps your cup full and your palate excited. Join the Analog Coffee Co. community and transform your morning routine into a daily celebration of exceptional coffee.<\/p><p><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K7Wbdy",
+        "text_pFbewn"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/free-photo-of-coffee-and-beans-on-a-table.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_BnwEKD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iKMQHc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coffee-beans.jpg",
+            "title": "Choose Your Roast",
+            "text": "<p>Select from our curated selection of single-origin and blended roasts. Whether you prefer light, medium, or dark, we've got your perfect match.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aik6r3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/calendar-4704388_1280.jpg",
+            "title": "Set Your Schedule",
+            "text": "<p>Customize your delivery frequency - weekly, bi-weekly, or monthly. Adjust or pause anytime. Fresh coffee arrives at your doorstep right when you need it.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zfajNH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/couple-making-pour-over-coffees.jpg",
+            "title": "Enjoy Member Perks",
+            "text": "<p>Get exclusive access to limited-edition roasts, early bird discounts on merchandise, and invitations to special tasting events.\"<br\/>CTA: \"Join the Club<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_iKMQHc",
+        "column_aik6r3",
+        "column_zfajNH"
+      ],
+      "settings": {
+        "title": "Craft Your Coffee Journey",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Explore our Collection",
+        "button_link": "shopify:\/\/collections",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_BnwEKD"
+  ]
+}
